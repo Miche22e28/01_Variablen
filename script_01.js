@@ -33,10 +33,22 @@
 // console.log(firstName + " " + familyName);
 
 /* JS ist eine untypisierte Sprache! | untyped */
-let test;
-test = "Maxine";
-test = 2;
-test = false;
+// let test;
+// test = "Maxine";
+// test = 2;
+// test = false;
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test)
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test)
+
+/***** 03a Variablen vs. Konstanten *****/
+// let firstName = "Max"; // Deklaration + Wertzuweisung
+// firstName = "Maxine";
+// console.log(firstName); // Ausgabe
+
+// const firstName = "Max"; // Variable mit KONSTANTEM Inhalt
+// firstName = "Maxine"; // KEINE neue Zuweisung zur LZ möglich! --> Fehlermeldung
+// console.log(firstName); // Ausgabe
+
+
+
