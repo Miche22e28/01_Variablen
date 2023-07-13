@@ -42,6 +42,7 @@
 // console.log("Inhalt: " + test)
 
 /***** 03a Variablen vs. Konstanten *****/
+
 // let firstName = "Max"; // Deklaration + Wertzuweisung
 // firstName = "Maxine";
 // console.log(firstName); // Ausgabe
@@ -50,5 +51,18 @@
 // firstName = "Maxine"; // KEINE neue Zuweisung zur LZ möglich! --> Fehlermeldung
 // console.log(firstName); // Ausgabe
 
+/***** 04 Beispiel - Berechnung *****/
+
+// Deklaration
+let ageJohn, ageMark;
+const birthYearJohn = 2000;
+const birthYearMark =1990;
+
+let year =2023;
+ageJohn = 2023 - birthYearJohn;
+ageMark = 2023 - birthYearMark;
+
+console.log("ageJohn: " + ageJohn);
+console.log("ageMark: " + ageMark);
 
 
