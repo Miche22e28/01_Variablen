@@ -58,7 +58,8 @@ let ageJohn, ageMark;
 const birthYearJohn = 2000;
 const birthYearMark =1990;
 
-let year =2023;
+let date = new Date(); // Systemfunktion Datum
+let year = date.getFullYear(); // Daten liefern lassen!
 ageJohn = 2023 - birthYearJohn;
 ageMark = 2023 - birthYearMark;
 
